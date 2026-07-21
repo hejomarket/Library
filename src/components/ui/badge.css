@@ -1,0 +1,7 @@
+.badge { align-items: center; border: 1px solid transparent; border-radius: var(--radius-md); display: inline-flex; font-size: .75rem; font-weight: 700; gap: .35rem; letter-spacing: .04em; line-height: 1; padding: .38rem .55rem; }
+.badge--neutral { background: var(--color-surface-muted); color: var(--color-text-secondary); }
+.badge--accent { background: color-mix(in srgb, var(--color-accent) 16%, transparent); color: var(--color-accent); }
+.badge--outline { background: transparent; border-color: var(--color-border-strong); color: var(--color-text-secondary); }
+.badge--success { background: color-mix(in srgb, var(--color-success) 16%, transparent); color: var(--color-success); }
+.badge--warning { background: color-mix(in srgb, var(--color-warning) 18%, transparent); color: var(--color-warning); }
+.badge--destructive { background: color-mix(in srgb, var(--color-destructive) 16%, transparent); color: var(--color-destructive); }
