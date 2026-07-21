@@ -1,0 +1,8 @@
+.section-heading { align-items: end; display: flex; gap: 1.5rem; justify-content: space-between; }
+.section-heading__copy { max-width: 44rem; }
+.section-heading--center { align-items: center; flex-direction: column; text-align: center; }
+.section-heading--center .section-heading__copy { margin-inline: auto; }
+.section-heading__eyebrow, .section-heading__title, .section-heading__description { margin: 0; }
+.section-heading__eyebrow { color: var(--color-accent); margin-bottom: .7rem; }
+.section-heading__description { margin-top: .9rem; }
+@media (max-width: 48rem) { .section-heading { align-items: start; flex-direction: column; } .section-heading--center { align-items: center; } }
